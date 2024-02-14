@@ -21,13 +21,57 @@
 	font-size: 16px;
 	color: #fff;
 }
-
+.text-headline-title {
+	font-family: "Inter";
+	font-size: 56px;
+	color: #000000;
+	text-align: center;
+}
+.text-headline-item {
+	font-size: 18px;
+	font-family: "Inter";
+	color: #000000;
+	padding-top: 24px;
+	text-align: center;
+}
+.button-text-block {
+	width: 236px;
+	height: 40px;
+}
+.feature-title-item {
+	color: #000000;
+	margin-left: 16px;
+}
+.feature-title {
+	display: flex;
+	align-items: center;
+}
+.feature-text {
+	padding-top: 16px;
+}
+.section3-p {
+	font-size: 16px;
+	color: #fff;
+}
+.section3-h {
+	font-size: 24px;
+	color: #fff;
+}
+.button-text1 {
+	color: #000000;
+	font-size: 16px;
+}
+.section-4-button {
+	width: 84px;
+	height: 40px;
+	background-color: white;
+	border-radius: 24px;
+}
 /* 1440 px  - desktop version*/
 .nav-box {
 	max-width: 1440px;
 	max-height: 96px;
 	width: 100%;
-	border:2px darkblue dotted;
 	/*  */
 	display: flex;
 	align-items: center;
@@ -36,26 +80,191 @@
 .logo {
 	width: 101px;
 	height: 27px;
-	border:2px darkblue dotted;
 	margin-left: 32px;
 }
 .navigation {
 	width: 328px;
 	height: 20px;
-	border:2px darkblue dotted;
 	/*  */
 }
 .button {
 	width: 100px;
 	height: 48px;
 	margin-right: 32px;
-	border:2px darkblue dotted;
 	background-color: #000000;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	border-radius: 32px;
 }
-@media (min-width :1024px) {
+.button1 {
+	width: 100px;
+	height: 48px;
+	background-color: #000000;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 32px;
+}
+.text-button-item {
+	font-size: 14px;
+	color: #000000;
+	font-family: "Inter";
+	text-align: center;
+}
+/* section */
+.section-bg {
+	max-width: 1440px;
+	width: 100%;
+	height: 556px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	justify-content: space-around;
+}
+.text {
+	width: 490px;
+	height: 288px;
+}
+.text-headline {
+	width: 490px;
+	height: 200px;
+}
+.text-button {
+	width: 490px;
+	height: 48px;
+	margin-top: 40px;
+	display: flex;
+}
+.image {
+	max-width: 490px;
+	width: 100%;
+	height: 428px;
+}
+.features {
+	max-width: 1440px;
+	width: 100%;
+	height: 244.2px;
+	display: flex;
+	justify-content: space-around;
+	justify-content: center;
+}
+.feature-1 {
+	width: 360px;
+	height: 116.2px;
+}
+.blackhole {
+	width: 40px;
+	height: 40px;
+	background-color: #000000;
+	border-radius: 45px;
+}
+.section-3 {
+	background-color: #000000;
+	max-width: 1440px;
+	height: 620px;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.section-3-text {
+	width: 503.5px;
+	height: 264px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	margin-left: 133px;
+}
+.section-4 {
+	max-width: 1440px;
+	height: 564px;
+	width: 100%;
+	position: relative;
+}
+.image4 {
+	width: 100%;
+}
+.section-4-image {
+	position: absolute;
+}
+.section-4-text {
+	position: absolute;
+	width: 540px;
+	height: 24px;
+	align-items: center;
+	top: 196px;
+	left: 450px;
+}
+.section-4-text1{
+	position: absolute;
+	width: 540px;
+	height: 96px;
+	text-align: center;
+	top: 226px;
+	left: 450px;
+}
+.section-4-text-item {
+	color: #fff;
+	font-size: 16px;
+	text-align: center;
+}
+.section-4-text-item2 {
+	color: #fff;
+	font-size: 40px;
+}
+.section-4-button {
+	position: absolute;
+	width: 84px;
+	height: 40px;
+	background-color: #fff;
+	border-radius: 24px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	top: 332px;
+	left: 678px;
+}
+.section-4-button-item {
+	color: #000000;
+	font-size: 16px;
+}
+/* Section 5 */
+.section-5 {
+	width: 100%;
+	max-width: 1440px;
+	height: 336px;
+	background-color:#000000;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.section-5-bg {
+	width: 1140px;
+	height: 144px;
+	display: flex;
+}
+.logo-reverse {
+	color: white;
+	font-size: 24.65px;
+	font-family: "Inter";
+}
+.column-1 {
+	width: 228px;
+	height: 144px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	text-align: center;
+}
+.column-text{
+	color: #fff;
+	font-size: 14px;
+}
+.column-text-1{
+	color: #fff;
+	font-size: 16px;
+}
+@media (max-width :1024px) {
 	
 }
