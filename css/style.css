@@ -1,0 +1,61 @@
+.logo-text {
+	font-family: "Inter";
+	color: #000000;
+	font-size: 24.65px;
+}
+.nav-li-item {
+	font-size: 16px;
+	color: #000000;
+	font-family: "Inter";
+}
+.nav-block {
+	display: flex;
+	justify-content: space-between;
+}
+.nav-block-item {
+	font-family: "Inter";
+	font-size: 16px;
+}
+.button-text {
+	font-family: "Inter";
+	font-size: 16px;
+	color: #fff;
+}
+
+/* 1440 px  - desktop version*/
+.nav-box {
+	max-width: 1440px;
+	max-height: 96px;
+	width: 100%;
+	border:2px darkblue dotted;
+	/*  */
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.logo {
+	width: 101px;
+	height: 27px;
+	border:2px darkblue dotted;
+	margin-left: 32px;
+}
+.navigation {
+	width: 328px;
+	height: 20px;
+	border:2px darkblue dotted;
+	/*  */
+}
+.button {
+	width: 100px;
+	height: 48px;
+	margin-right: 32px;
+	border:2px darkblue dotted;
+	background-color: #000000;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 32px;
+}
+@media (min-width :1024px) {
+	
+}
